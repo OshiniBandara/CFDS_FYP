@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-devtools": "^4.27.4",
+    "react-toastify": "^9.1.2"
+  }
+}
