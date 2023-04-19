@@ -1,0 +1,205 @@
+.dt {
+    padding: 25rem;
+    background: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 50px;
+    color: #fff;
+    background-color: rgb(6, 6, 6);
+  }
+  
+  h2 {
+    text-align: center;
+    padding: 10px;
+    color: #080505;
+    background-color: #fff;
+  }
+
+
+  h3{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 0px;
+    background-color: #1d9f12;
+  }
+
+  p{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0px;
+    background-color: #060706;
+  }
+
+  .dt-container {
+    
+    background-color: rgb(6, 6, 6);
+    height:20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+  .dt2-container {
+    
+    background-color: #fff;
+    height:30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+  .dt4-container {
+    
+    background-color: #fff;
+    height:50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .dt4-container > .output-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .dt4-container > .output-container > p {
+    flex-grow: 1;
+   
+  }
+
+  .dt5-container {
+    
+    background-color: #fff;
+    height:30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .dt5-container > .output-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .dt5-container > .output-container > p {
+    flex-grow: 1;
+   
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    
+    padding: 15px;
+    text-align: left;
+    font-size:medium;
+    font-style: oblique;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .dt3-container {
+    
+    background-color: rgb(6, 6, 6);
+    height:20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .btn-container {
+    
+    background-color: rgb(6, 6, 6);
+    height:5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 500px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .dt-btns {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+    font-size: 15px;
+   
+  }
+  
+  .btndt{
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    align-content: center;
+    background-color: #f8f2f2;
+    font-size: 15px;
+    color: #060706;
+    
+  }
+  .dt-btns .btn {
+    margin: 6px;
+    align-items: center;
+    align-content: center;
+  }
+  .loader{
+    border :6px solid #060706;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  h5{
+    text-align: center;
+    padding: 10px;
+    color: #f2efef;
+    font-size: 20px;
+    margin-top: -50px;
+    
+  }
+  
+  @keyframes spin{
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+  }
